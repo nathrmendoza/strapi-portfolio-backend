@@ -1,0 +1,17 @@
+{
+  "kind": "collectionType",
+  "collectionName": "skill_proficiencies",
+  "info": {
+    "name": "Skill Proficiencies"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

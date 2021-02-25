@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/skill-proficiencies",
+      "handler": "skill-proficiencies.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skill-proficiencies/count",
+      "handler": "skill-proficiencies.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/skill-proficiencies/:id",
+      "handler": "skill-proficiencies.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/skill-proficiencies",
+      "handler": "skill-proficiencies.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/skill-proficiencies/:id",
+      "handler": "skill-proficiencies.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/skill-proficiencies/:id",
+      "handler": "skill-proficiencies.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
